@@ -1,23 +1,28 @@
-FastAPI To-Do App - Week 1 Progress
+# FastAPI To-Do App - Week 1 Progress
 
-Description: Simple ToDo API built in FastAPI. Intended to assist in learning the basic structure of FastAPI endpoints.
+## Description
+A simple To-Do API built with **FastAPI**, designed as a learning project to understand the basic structure of FastAPI endpoints and API development.
 
-Setup:
-# Clone the repository
-git clone fastapi-todo
+---
 
-# Navigate to the project directory
-cd fastapi-todo
+## Setup Instructions
+### Clone the repository
+```git clone fastapi-todo```
 
-# Create a virtual environment
-python -m venv venv
+### Navigate to the project directory
+```cd fastapi-todo```
 
-# Activate the virtual environment
+### Create a virtual environment
+```python -m venv venv```
+
+### Activate the virtual environment
+```
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
+```
 
-# Install dependencies
-pip install -r requirements.txt
+### Install dependencies
+```pip install -r requirements.txt```
 
-# Run the application
-uvicorn main:app --reload
+### Run the application
+```uvicorn main:app --reload```
